@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Simple demo of Previous & Next linking in 11ty for users in 11ty Discord community",
   "scripts": {
-    "dev": "eleventy --serve"
+    "dev": "eleventy --serve",
+    "build": "eleventy"
   },
   "repository": {
     "type": "git",
