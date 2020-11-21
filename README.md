@@ -2,6 +2,8 @@
 
 Simple demo for Previous &amp; Next links in 11ty to help several posters in the 11ty Discord community.
 
+Demo site: https://demo-11ty-prev-next.netlify.app/
+
 ## Install Using Template
 
 1. Click the <kbd>Use this template</kbd> button above to create a clean copy of this repo in your Github account.
