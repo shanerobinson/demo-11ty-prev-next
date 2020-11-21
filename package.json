@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/shanerobinson/demo-11ty-prev-next/issues"
   },
-  "homepage": "https://github.com/shanerobinson/demo-11ty-prev-next#readme"
+  "homepage": "https://github.com/shanerobinson/demo-11ty-prev-next#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
 }
