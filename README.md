@@ -1,4 +1,4 @@
-# demo-11ty-prev-next
+# Demo 11ty Previous and Next Links
 
 Simple demo for Previous &amp; Next links in 11ty to help several posters in the 11ty Discord community.
 
@@ -63,7 +63,7 @@ Now in `/src/_includes/layouts/cover.njk` and `/src/_includes/layouts/post.njk` 
 Then use simple conditionals to display (or not) the Previous and Next links:
 
 ```liquid
-/src/_includes/layouts/post.njk
+/src/_includes/layouts/cover.njk & post.njk
 
     <div>
       {% if previousPost %}
