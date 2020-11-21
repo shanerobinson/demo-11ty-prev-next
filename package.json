@@ -1,0 +1,24 @@
+{
+  "name": "demo-11ty-prev-next",
+  "version": "1.0.0",
+  "description": "Simple demo of Previous & Next linking in 11ty for users in 11ty Discord community",
+  "scripts": {
+    "dev": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanerobinson/demo-11ty-prev-next.git"
+  },
+  "keywords": [
+    "11ty",
+    "navigation",
+    "discord",
+    "support"
+  ],
+  "author": "Shane Robinson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shanerobinson/demo-11ty-prev-next/issues"
+  },
+  "homepage": "https://github.com/shanerobinson/demo-11ty-prev-next#readme"
+}

@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk
+---
+
+<h1>{{ title }}</h1>
+{{ content | safe}}
+
+<hr>
+
+  {# ===== Previous and Next =====  #}
+  <div>
+    {% set previousPost = collections.covers | getPreviousCollectionItem(page) %}
+    {% set nextPost = collections.covers | getNextCollectionItem(page) %}
+
+    <div>
+      {% if previousPost %}
+        <p><a href="{{ previousPost.url }}">← {{ previousPost.data.title }}</a></p>
+      {% endif %}
+    </div>
+
+    <div>
+      {% if nextPost %}
+        <a href="{{ nextPost.url }}">{{ nextPost.data.title }} →</a>
+      {% endif %}
+    </div>
+
+  </div>
