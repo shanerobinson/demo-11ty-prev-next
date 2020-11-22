@@ -24,5 +24,8 @@
   "homepage": "https://github.com/shanerobinson/demo-11ty-prev-next#readme",
   "dependencies": {
     "@11ty/eleventy": "^0.11.1"
+  },
+  "devDependencies": {
+    "@11ty/eleventy-navigation": "^0.1.6"
   }
 }
