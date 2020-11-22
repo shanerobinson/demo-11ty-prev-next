@@ -1,5 +1,6 @@
 ---
 title: Cover Two
+date: 2020-11-22T15:41:32.000Z
 ---
 
 Cover Two content here.

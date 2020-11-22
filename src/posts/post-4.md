@@ -1,5 +1,6 @@
 ---
 title: Blog Post Four
+date: 2020-11-22T15:46:32.000Z
 ---
 
 Blog Post Four content here.

@@ -1,5 +1,6 @@
 ---
 title: Blog Post One
+date: 2020-11-22T15:43:32.000Z
 ---
 
 Blog Post One content here.

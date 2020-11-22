@@ -1,5 +1,6 @@
 ---
 title: Cover One
+date: 2020-11-22T15:40:32.000Z
 ---
 
 Cover One content here.

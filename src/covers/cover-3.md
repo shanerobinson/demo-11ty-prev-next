@@ -1,5 +1,6 @@
 ---
 title: Cover Three
+date: 2020-11-22T15:42:32.000Z
 ---
 
 Cover Three content here.
