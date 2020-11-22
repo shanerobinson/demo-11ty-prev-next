@@ -1,0 +1,31 @@
+---
+layout: layouts/base.njk
+---
+
+<nav id="navbar-left">
+  {{ collections.chapters | eleventyNavigation | eleventyNavigationToHtml | safe }}
+</nav>
+
+<h1>{{ title }}</h1>
+{{ content | safe}}
+
+<hr>
+
+  {# ===== Previous and Next =====  #}
+  <div>
+    {% set previousChapter = collections.chapters | getPreviousCollectionItem(page) %}
+    {% set nextChapter = collections.chapters | getNextCollectionItem(page) %}
+
+    <div>
+      {% if previousChapter %}
+        <p><a href="{{ previousChapter.url }}">← {{ previousChapter.data.title }}</a></p>
+      {% endif %}
+    </div>
+
+    <div>
+      {% if nextChapter %}
+        <a href="{{ nextChapter.url }}">{{ nextChapter.data.title }} →</a>
+      {% endif %}
+    </div>
+
+  </div>

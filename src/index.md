@@ -27,3 +27,7 @@ No styles. No JS. Just the structures required to paginate through entries for t
   <li>Post: <a href="{{ post.url }}">{{ post.data.title}}</a></li>  
 {% endfor %}
 </ul>
+
+## Chapters
+
+{{ collections.chapters | eleventyNavigation | eleventyNavigationToHtml | safe }}
