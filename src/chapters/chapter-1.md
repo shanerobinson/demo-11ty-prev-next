@@ -1,10 +1,10 @@
 ---
 title: Chapter One
-
+date: 2020-11-22T14:45:42.000Z
 eleventyNavigation:
   key: Chapter One
   order: 1
-  parent: 
+  parent:
 ---
 
 Chapter One content here.

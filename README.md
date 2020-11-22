@@ -79,3 +79,17 @@ Then use simple conditionals to display (or not) the Previous and Next links:
       {% endif %}
     </div>
 ```
+
+---
+
+### UPDATE: Generating Previous and Next links within 11ty Navigation
+
+In the **Covers and Posts** markdown files you'll notice there is no `date:` Frontmatter. Because I created each of the files in order, pagination simply works based on the file creation date.
+
+In the new **Chapters** section, where 11ty Navigation is used (https://www.11ty.dev/docs/plugins/navigation/) we naturally want to link from one Chapter to it's Sections and to the next Chapter. In order to do this automatically, we just need to add `date:` values to the Frontmatter on those markdown files, with the timestamp incremented.
+
+So you can see I simply incremented the timestamps by 1 minute in each of the Chapter & Section pages.
+
+11ty Navigation will then properly construct Previous and Next links without any special code.
+
+_NOTE: You'll just have to remember to manually adjust the timestamp if you ever want to insert Sub-Section pages or re-order the Sections. Would be every easy if you just increment each file by Hour or even Day._
