@@ -1,5 +1,7 @@
 # Demo 11ty Previous and Next Links
 
+_(Thanks to @khoivan88 for the challenge in how to explain how all this works for those new to 11ty)_
+
 Simple demo for Previous &amp; Next links in 11ty to help several posters in the 11ty Discord community.
 
 Demo site: https://demo-11ty-prev-next.netlify.app/
