@@ -9,6 +9,11 @@ No styles. No JS. Just the structures required to paginate through entries for t
 
 - Covers _(book covers)_
 - Posts _(blog posts)_
+- Chapters and Sections
+
+### Github Repo & Instructions
+
+https://github.com/shanerobinson/demo-11ty-prev-next
 
 ---
 
