@@ -13,7 +13,7 @@ No styles. No JS. Just the structures required to paginate through entries for t
 
 ### Github Repo & Instructions
 
-https://github.com/shanerobinson/demo-11ty-prev-next
+[https://github.com/shanerobinson/demo-11ty-prev-next](https://github.com/shanerobinson/demo-11ty-prev-next)
 
 ---
 
